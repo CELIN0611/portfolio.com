@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+	<script src="https://kit.fontawesome.com/b212824fcc.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<div id="header">
+	<div class="container">
+		<nav>
+			<img src="img/logo_white.png" class="logo">
+			<ul>
+			<li><a href="#header">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<div class="header-text">
+		<p>Website Designer</p>
+		<h1>Hi, I'm Celin Chua<br>From Malaysia.</h1>
+
+		</div>
+	</div>
+</div>
+
+<!-- ----------------about----------------- -->
+
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="img/user.jpeg">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<br>
+				<p class="about-content">Hi, my name is Celin Chua Wan Jin, 
+				24 years old from Melaka Malaysia. A 
+				fresh graduated graphic student from 
+				Universiti Malaysia Pahang Sultan 
+				Al-Abdullah (UMPSA) on October 2023 
+				with a flair for computer software and 
+				multimedia solutions that increase the 
+				efficiency and performance of website. 
+				Seeking a Graphic Designer position. 
+				Quick leaner and has ability to work 
+				under intense deadline pressure.</p><br>
+				
+				<hr>
+				
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('language')">Language</p>
+					<p class="tab-links" onclick="opentab('education')">Education</p>
+				</div>
+				
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li><span>Web Development & Design</span>
+						<br>Wordpress Divi, Betheme. HTML, CSS & PHP programming</li>
+						<li><span>Video Editing</span>
+						<br>Using Premiere Pro, Invideo & Canva to edit short video for social media (Facebook, Youtube, etc)</li>
+						<li><span>Graphic Design</span>
+						<br>Using PS & Canva create poster / any media content</li>
+						<li><span>Game Development & Design</span>
+						<br>Using Unity with C# programming create 2D / 3D games</li>
+					</ul>
+				</div>
+				
+				<div class="tab-contents" id="language">
+					<ul>
+						<li>
+							<table>
+							<tr>
+								<td colspan=2><span>Mandarin</span></td>
+								<td colspan=2><span>Malay</span></td>
+								<td colspan=2><span>English</span></td>
+							</tr>
+							
+							<tr>
+								<td>Speaking</td>
+								<td style="padding-right: 70px;">: <span style="color: #FEDE00;">★★★★★</span></td>
+								<td>Speaking</td>
+								<td style="padding-right: 70px;">: <span style="color: #FEDE00;">★★★★★</span></td>
+								<td>Speaking</td>
+								<td style="padding-right: 70px;">: <span style="color: #FEDE00;">★★★</span></td>
+							</tr>
+							
+							<tr>
+								<td>Listening</td>
+								<td>: <span style="color: #FEDE00;">★★★★★</span></td>
+								<td>Listening</td>
+								<td>: <span style="color: #FEDE00;">★★★★★</span></td>
+								<td>Listening</td>
+								<td>: <span style="color: #FEDE00;">★★★</span></td>
+							</tr>
+							
+							<tr>
+								<td>Writing</td>
+								<td>: <span style="color: #FEDE00;">★★★★★</span></td>
+								<td>Writing</td>
+								<td>: <span style="color: #FEDE00;">★★★★★</span></td>
+								<td>Writing</td>
+								<td>: <span style="color: #FEDE00;">★★★★</span></td>
+							</tr>
+							</table>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="tab-contents" id="education">
+					<ul>
+						<li><span>Sijil Tinggi Persekolahan Malaysia (STPM)</span>
+							<br><b>2017-2018 &nbsp | &nbsp SMK Gajah Berang Melaka</b>
+							<br>&nbsp &nbsp &nbsp CGP: 2.59</li>
+						<li><span>Bachelor of Computer Science (Graphics & Multimedia Technology) with Honour</span>
+							<br><b>2019-2023 &nbsp | &nbsp Universiti Malaysia Pahang</b>
+							<br>&nbsp &nbsp &nbsp CGP: 3.57</li>					
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- -----------------Portfolio----------------- -->
+
+<div id="portfolio">
+	<div class="container">
+		<h1 class="sub-title">Portfolio</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="img/graphic design.png">
+				<div class="layer">
+					<h3>Graphic Design</h3>
+					<p>Media contents such as Facebook post, Instagram post, Ads, etc</p>
+					<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+			
+			<div class="work">
+				<img src="img/video editing.png">
+				<div class="layer">
+					<h3>Video Editing</h3>
+					<p>Create short videos for Youtube channel & any media platform</p>
+					<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+			
+			<div class="work">
+				<img src="img/web development.png">
+				<div class="layer">
+					<h3>Web development</h3>
+					<p>Design, develop & update client's website using CMS such as Wordpress</p>
+					<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+			
+			<div class="work">
+				<img src="img/game.png">
+				<div class="layer">
+					<h3>Game Development</h3>
+					<p>Design & develop 2D and 3D game application using Unity</p>
+					<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<!-- --------------contact-------------------- -->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-solid fa-envelope"></i><a href="mailto: coldice0611@gmail.com">&nbsp coldice0611@gmail.com</a></p>
+				<p><i class="fa-solid fa-phone"></i>&nbsp 0166471790</p>
+				<p><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/cold.ice.146">&nbsp Celin Chua</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+</body>
+</html>
